@@ -1,0 +1,430 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="LondonCrimeProject">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="KG_TRAINING20\KUBRICK:KG_Training20\Student20">
+          <Created>2016-11-17T10:43:14.3110451+00:00</Created>
+          <Type>SQL</Type>
+          <Server>KG_TRAINING20\KUBRICK</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="2011AllAges.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2011AllAges.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2011CrimeTypeDepView.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2011CrimeTypeDepView.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2011FemaleAges.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2011FemaleAges.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2011MaleAges.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2011MaleAges.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2012AllAges.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2012AllAges.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2012CrimeTypeDepView.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2012CrimeTypeDepView.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2012FemaleAges.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2012FemaleAges.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2012MaleAges.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2012MaleAges.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2013AgesFemale.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2013AgesFemale.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2013AgesMales.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2013AgesMales.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2013AllAges.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2013AllAges.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2013CrimeTypeDepView.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2013CrimeTypeDepView.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2014AllAges.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2014AllAges.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2014CrimeDepCount.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2014CrimeDepCount.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2015AllAges.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2015AllAges.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2015Crimesperhead.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2015Crimesperhead.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2015CrimeTypeDepView.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2015CrimeTypeDepView.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BankingChallenge.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>BankingChallenge.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Bankingrecords1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Bankingrecords1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BCP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>BCP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CASEATTEMPTBIEW.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CASEATTEMPTBIEW.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CentralTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CentralTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CleansingQuery.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CleansingQuery.sql</FullPath>
+        </FileNode>
+        <FileNode Name="COMMITTRANS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>COMMITTRANS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="cph2014t.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>cph2014t.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CrimeCountsperHeadView.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CrimeCountsperHeadView.sql</FullPath>
+        </FileNode>
+        <FileNode Name="crimeperhead2012.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>crimeperhead2012.sql</FullPath>
+        </FileNode>
+        <FileNode Name="crimesbucketTYPEyears.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>crimesbucketTYPEyears.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CrimesPerhead2013.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CrimesPerhead2013.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CrimesPerHead2014.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CrimesPerHead2014.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CrimetypeNormalise.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CrimetypeNormalise.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DatesNormalise.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DatesNormalise.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DistanceQuery.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DistanceQuery.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Geometry.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Geometry.sql</FullPath>
+        </FileNode>
+        <FileNode Name="InnerJoinQuery.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>InnerJoinQuery.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LocationNormalise.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LocationNormalise.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LONDONDEPCOUNT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LONDONDEPCOUNT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LondonDepVIEWS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LondonDepVIEWS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LongLatNormal.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LongLatNormal.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LSOACrimeType.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LSOACrimeType.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LSOANormalise.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LSOANormalise.sql</FullPath>
+        </FileNode>
+        <FileNode Name="NormalisationQuery.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>NormalisationQuery.sql</FullPath>
+        </FileNode>
+        <FileNode Name="OutcomeNormalise.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>OutcomeNormalise.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PoliceNormalise.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>PoliceNormalise.sql</FullPath>
+        </FileNode>
+        <FileNode Name="popCleansing.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>popCleansing.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PROCEDUREs.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>PROCEDUREs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Procedures2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Procedures2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ScopeIdentity.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ScopeIdentity.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SCOPEIDENTreseed.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SCOPEIDENTreseed.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ScrubbedLSOA.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ScrubbedLSOA.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SpatialCode.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SpatialCode.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery4.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery4.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery5.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery5.sql</FullPath>
+        </FileNode>
+        <FileNode Name="VIEWCRimeType.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>VIEWCRimeType.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ViewQuery.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ViewQuery.sql</FullPath>
+        </FileNode>
+        <FileNode Name="week6SQL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>week6SQL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Westmin2011ctypeVIEW.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Westmin2011ctypeVIEW.sql</FullPath>
+        </FileNode>
+        <FileNode Name="westmin2012ctype.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>westmin2012ctype.sql</FullPath>
+        </FileNode>
+        <FileNode Name="westmin2013ctype.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>westmin2013ctype.sql</FullPath>
+        </FileNode>
+        <FileNode Name="WestMin2015view.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>WestMin2015view.sql</FullPath>
+        </FileNode>
+        <FileNode Name="westminantisocial.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>westminantisocial.sql</FullPath>
+        </FileNode>
+        <FileNode Name="westminantiView.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>westminantiView.sql</FullPath>
+        </FileNode>
+        <FileNode Name="WESTMINshopview.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>WESTMINshopview.sql</FullPath>
+        </FileNode>
+        <FileNode Name="westminviolencesex.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING20\KUBRICK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KG_TRAINING20\KUBRICK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>westminviolencesex.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
